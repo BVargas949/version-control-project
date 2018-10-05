@@ -1,1 +1,10 @@
 @charset "utf-8";
+
+
+/*Navigational Styles*/
+/* 
+    This section is set up to allow the nav to be set up in a horizontal style across the page
+    */
+nav {
+    display: table;
+}
