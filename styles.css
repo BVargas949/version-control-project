@@ -1,19 +1,1 @@
 @charset "utf-8";
-
-
-/*Navigational Styles*/
-/* 
-    This section is set up to allow the nav to be set up in a horizontal style across the page
-    */
-nav {
-    display: table;
-    width: 80%;
-}
-
-nav>ul {
-    display: table-row;
-}
-
-nav>ul>li {
-    display: table-cell;
-}
