@@ -7,13 +7,31 @@
     */
 nav {
     display: table;
-    width: 80%;
+    width: 100%;
+    text-align: center
 }
 
 nav>ul {
     display: table-row;
+    list-style-type: none;
 }
 
 nav>ul>li {
     display: table-cell;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+nav>ul>li>a:link,
+nav>ul>li>a:visited {
+    color: black;
+    background-color: white
+}
+
+nav>ul>li>a:active,
+nav>ul>li>a:hover {
+    color: white;
+    background-color: black;
 }
