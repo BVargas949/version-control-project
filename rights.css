@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+
+body>section.leftcol {
+    clear: left;
+    float: left;
+    width: 66%;
+}
+
+body>section.rightcol {
+    float: right;
+    width: 34%;
+}
