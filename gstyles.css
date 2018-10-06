@@ -49,6 +49,7 @@ nav>ul>li {
 
 nav>ul>li>a {
     text-decoration: none;
+
 }
 
 nav>ul>li>a:link,
@@ -59,6 +60,8 @@ nav>ul>li>a:visited {
 
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
-    color: rgb(240, 240, 240);
-    background-color: rgba(151, 151, 151, 0.76);
+    color: black;
+    text-decoration: underline;
+    /* color: rgb(240, 240, 240); */
+    /* background-color: rgba(151, 151, 151, 0.76); */
 }
