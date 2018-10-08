@@ -65,3 +65,13 @@ nav>ul>li>a:hover {
     /* color: rgb(240, 240, 240); */
     /* background-color: rgba(151, 151, 151, 0.76); */
 }
+
+img#wip {
+    float: right;
+}
+
+img#globe {
+    float: right;
+    width: 150px;
+    height: 100px;
+}
