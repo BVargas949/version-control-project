@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 
+These are here to try something new, I was hoping that it would look nice in our page. This just makes those words with em tags not have italics, but be underlined and have different color, set by the nth-of-type and even or odds.
+*/
+em:nth-of-type(even) {
+    text-decoration: underline;
+    font-style: normal;
+    color: rgba(216, 115, 21, 0.74);
+}
+
+em:nth-of-type(odd) {
+    text-decoration: underline;
+    font-style: normal;
+    color: rgba(16, 128, 16, 0.74);
+}
+
+body>section {
+    clear: left;
+    width: 66%;
+}
