@@ -73,9 +73,7 @@ nav>ul>li>a:visited {
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
     color: black;
-    text-decoration: underline;
-    /* color: rgb(240, 240, 240); */
-    /* background-color: rgba(151, 151, 151, 0.76); */
+    text-decoration: none;
 }
 
 img#wip {
