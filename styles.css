@@ -63,3 +63,9 @@ nav>ul>li>a:hover {
     color: rgb(240, 240, 240);
     background-color: rgba(151, 151, 151, 0.76);
 }
+
+img {
+    margin-right: 5em;
+    width: 23%;
+    float: right;
+}
