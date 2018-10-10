@@ -30,6 +30,7 @@ body {
     margin-right: auto;
     width: 90%;
     padding: 2.5em .5em;
+    border: thin solid black;
 }
 
 nav {
@@ -66,4 +67,3 @@ nav>ul>li>a:hover {
 h1 {
     background-color: rgba(132, 222, 245, 0.349);
 }
- 
