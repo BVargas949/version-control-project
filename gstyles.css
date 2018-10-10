@@ -30,8 +30,7 @@ body {
     margin-right: auto;
     width: 90%;
     padding: 2.5em .5em;
-    padding-top: 10px;
-    margin-top: 0px;
+    border: thin solid black;
 
 }
 
@@ -40,21 +39,27 @@ nav {
     width: 100%;
     text-align: center;
 
+
 }
 
 nav>ul {
     display: table-row;
     list-style-type: none;
 
+
 }
 
 nav>ul>li {
     display: table-cell;
+    margin-right: 2%;
+    border: thin solid black;
+    border-collapse: collapse;
 
 }
 
 nav>ul>li>a {
     text-decoration: none;
+
 
 
 }
@@ -75,10 +80,4 @@ nav>ul>li>a:hover {
 
 img#wip {
     float: right;
-}
-
-img#globe {
-    float: right;
-    width: 150px;
-    height: 100px;
 }
