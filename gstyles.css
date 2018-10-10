@@ -51,9 +51,7 @@ nav>ul {
 
 nav>ul>li {
     display: table-cell;
-    margin-right: 2%;
-    border: thin solid black;
-    border-collapse: collapse;
+
 
 }
 
