@@ -71,10 +71,10 @@ nav>ul>li>a:hover {
     text-decoration: none;
 }
 
-/* Here there is one imagine that was moved to the right using float. The image was removed from having padding and margin by having 0 pixel units applied to it.*/
+/* Here there is one imagine that was moved to the right using float. The image was removed from having padding and margin by having 0 pixel units applied to it. */
 
 
-img#globe {
+img.globe {
     float: right;
     padding: 0px 0px;
     margin: 0px;
