@@ -4,15 +4,6 @@
 This style sheet applies to all of the HTML Files.
 */
 
-/*Navigational Styles*/
-
-
-
-
-
-
-
-
 /* 
     This section is set up to allow the nav to be set up in a horizontal style across the page
     */
@@ -22,7 +13,7 @@ html {
 }
 
 /* 
-The auto sets up to center the element in the center of the page. 90% makes the outside a different color because the html and the body selectors are different colors.
+The auto sets up to center the element in the center of the page. 90% makes the outside a different color because the html and the body selectors are different colors. The width here is relative to the html style, and the padding is to ensure that the text isn't against the walls of the background color.
 */
 body {
     background-color: rgb(240, 240, 240);
@@ -33,12 +24,18 @@ body {
     border: thin solid black;
 }
 
+/* 
+ The nav is displayed in a table which allows the nav to be displayed horizontally. The unordered list is a row, and each list item is a cell in that table. This means that the nav can be displayed side by side, horizontally. The nav is set to a width of 100% which is set as a size of the body. The text is then centered, which is to make each of the texts look close to the middle.
+ */
 nav {
     display: table;
     width: 100%;
     text-align: center
 }
 
+/* 
+The list style type is set to ensure that there is no discs behind the link.
+*/
 nav>ul {
     display: table-row;
     list-style-type: none;
@@ -48,10 +45,16 @@ nav>ul>li {
     display: table-cell;
 }
 
+/* 
+This is to make sure that the text isn't underlined. That's it. Sorry.
+*/
 nav>ul>li>a {
     text-decoration: none;
 }
 
+/* 
+These are to make sure that a link that has been visited or otherwise, not in the process of being hovered over or clicked on, is gray, with a lighter background color. The one under it is the exact opposite.
+*/
 nav>ul>li>a:link,
 nav>ul>li>a:visited {
     color: rgba(145, 145, 145, 0.76);
@@ -62,10 +65,4 @@ nav>ul>li>a:active,
 nav>ul>li>a:hover {
     color: rgb(240, 240, 240);
     background-color: rgba(151, 151, 151, 0.76);
-}
-
-img {
-    margin-right: 5em;
-    width: 23%;
-    float: right;
 }

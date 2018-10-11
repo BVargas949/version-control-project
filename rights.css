@@ -15,10 +15,16 @@ em:nth-of-type(odd) {
     color: rgba(16, 128, 16, 0.74);
 }
 
-
-
-
+/* 
+This resizes the section to take up close to a little more than half of the page, which leaves room for the image to go on the right side of the page
+*/
 body>section {
     clear: left;
     width: 66%;
+}
+
+img {
+    margin-right: 5em;
+    width: 23%;
+    float: right;
 }
